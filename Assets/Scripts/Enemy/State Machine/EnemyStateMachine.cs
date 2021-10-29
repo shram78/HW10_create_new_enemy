@@ -8,7 +8,6 @@ public class EnemyStateMachine : MonoBehaviour
 {
     [SerializeField] private State _firsState;
 
-
     private Player _target;
     private State _currentState;
 
@@ -18,7 +17,6 @@ public class EnemyStateMachine : MonoBehaviour
     {
         _target = GetComponent<Enemy>().Target;
         Resett(_firsState);
-            
     }
 
     private void Update()
@@ -29,14 +27,13 @@ public class EnemyStateMachine : MonoBehaviour
         var netxState = _currentState.GetNextState();
         if (netxState != null)
             Transit(netxState);
-
     }
 
-    private void Resett(State startState) // для сброса стэйтов, вернуться к первому состоянию
+    private void Resett(State startState) 
     {
         _currentState = startState;
 
-        if (_currentState != null) //если есть какойто стейт, его уже ктото указал
+        if (_currentState != null) 
             _currentState.Enter(_target);
     }
 
