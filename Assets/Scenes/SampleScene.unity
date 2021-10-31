@@ -541,10 +541,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _waves:
-  - Template: {fileID: 3819885348581575657, guid: 2b3bda7289396b049b7f0f9725ea8e30,
+  - Template: {fileID: 2365194129581113739, guid: 7a0f3bc37d0526d43a3e1a7f31f02a59,
       type: 3}
     Delay: 1
-    Count: 3
+    Count: 2
+  - Template: {fileID: 2365194129581113739, guid: 416596cc4a7d14c4db202d6e53460fe7,
+      type: 3}
+    Delay: 3
+    Count: 2
   _spawnPoint: {fileID: 129185512}
   _player: {fileID: 973100647}
 --- !u!4 &129185512
@@ -555,7 +559,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129185510}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.05, y: -4.09, z: 0}
+  m_LocalPosition: {x: -12.05, y: -4.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1894,7 +1898,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.9468493
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1918,7 +1922,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0.18, y: -0.19, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
