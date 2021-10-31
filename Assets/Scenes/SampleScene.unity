@@ -544,10 +544,10 @@ MonoBehaviour:
   - Template: {fileID: 2365194129581113739, guid: 7a0f3bc37d0526d43a3e1a7f31f02a59,
       type: 3}
     Delay: 1
-    Count: 2
+    Count: 3
   - Template: {fileID: 2365194129581113739, guid: 416596cc4a7d14c4db202d6e53460fe7,
       type: 3}
-    Delay: 3
+    Delay: 2
     Count: 2
   _spawnPoint: {fileID: 129185512}
   _player: {fileID: 973100647}
@@ -2571,7 +2571,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.711, y: 0.89379895}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 31, y: 12}
+  m_AnchoredPosition: {x: 31.000061, y: 12}
   m_SizeDelta: {x: 61.460327, y: 44.78662}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &778528272
